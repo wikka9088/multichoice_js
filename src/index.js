@@ -1,4 +1,4 @@
-import { groupBy } from "lodash-es"
+import $ from "lodash-es"
 import people from "./people";
 import './scss/index.scss'
 

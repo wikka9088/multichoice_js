@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Multiple Choice</title>
 </head>
 <body>
+    <div id="multi-choice-editor">
+        <div class="add-question-btn-container">
+            <button class="question-remove-btn btn">Add Question</button>
+        </div>
+        <div id="multichoice-question-container">
+
+        </div>
+        <div class="question-template--js hidden">
+            <div class="row question-content-row">
+                <div class="title-row-remove">
+                    <button class="question-remove-btn btn">Delete Question</button>
+                </div>
+            </div>
+            <div class="question-content-row question-text form-group">
+                <input type="text" name="question-title" class="form-control" required="required">
+            </div>
+            <div class="question-content-row answer-content-titles">
+                <label class="sub-title title-row-1">Answers</label>
+                <label class="sub-title title-row-2">Correct</label>
+            </div>
+            <div class="question-content-row form-group">
+                <h4 class="generic-error"></h4>
+                <div class="answer-container">
+
+                </div>
+            </div>
+            <div class="question-content-row answer-add-wrapper">
+                <button class="editor-add-answer btn btn-outline-primary">
+                    Add Answer
+                </button>
+            </div>
+        </div>
+    </div>
     <script src="bundle.js"></script>
 </body>
 </html>
